@@ -1,0 +1,15 @@
+ import java.util.Scanner;
+    public class java3 {
+        public static void main(String args[]){
+            Scanner input =new Scanner(System.in);
+            int m = input.nextInt();
+            for(int i=1;i<=m;i++){
+                System.out.print(i%2);
+                if(i<m){
+                    System.out.print(",");
+                }
+            }
+        }
+
+    }
+
