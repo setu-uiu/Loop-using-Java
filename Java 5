@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class java5 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int x = input.nextInt();
+        int y = input.nextInt();
+        while (x != y) {
+
+                System.out.print(x*x+",");
+                if(x<y){
+                    x++;
+            }
+                else {
+                    x--;
+                }
+
+        }
+        System.out.print("Reached!");
+    }
+}
